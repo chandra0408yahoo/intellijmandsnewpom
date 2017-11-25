@@ -26,7 +26,7 @@ public class homepagemethods  {
             //    WebElement clickOnArrangementbutton = WebConnector.driver.findElement(By.xpath("//*[@id='top_navigation_left']/div[1]/ul/li[1]/a"));
             Assert.assertTrue(clickOnArrangementbutton.isEnabled());
             clickOnArrangementbutton.click();
-
+        System.out.println("verify git");
     }
 
 
